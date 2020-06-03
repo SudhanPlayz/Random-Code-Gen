@@ -39,6 +39,8 @@ Authored and maintained by SudhanPlayz.
 
 ## Contributors
 
-
+<a href="https://github.com/SudhanPlayz/Random-Code-Gen/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=SudhanPlayz/Random-Code-Gen" />
+</a>
 
 > GitHub [@SudhanPlayz](https://github.com/SudhanPlayz)
