@@ -17,8 +17,10 @@ const codeGen = require("random-code-gen"); //Getting package
 
 let code = codeGen.random(5);//making 5 digit random code
 let code2 = codeGen.number(6);//making 6 digit random number
+let code3 = codeGen.letter(9)
 console.log('Generated Random Code is "' + code + '"');//logging the code
 console.log('Generated Number Code is "' + code2 + '"');//logging the code2
+console.log('Generated Letter Code is "' + code3 + '"');
 ```
 
 ## Contributing
