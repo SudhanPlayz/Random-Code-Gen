@@ -28,11 +28,20 @@ function number(length) {
   }
   return result;
 }
-
+function RandomLengthRandomGen(){
+  let length = parseInt(number(7));
+  return RandomCodeGen(length);
+}
+function RandomLengthLetterGen(){
+   let length = parseInt(number(7));
+  return LetterGen(length);
+}
 const functions = {
   random: RandomCodeGen,
   number: number,
-  letter: LetterGen
+  letter: LetterGen,
+  Rrandom: RandomLengthRandomGen,
+  Rletter: RandomLengthLetterGen
 }
 
 module.exports = functions;
